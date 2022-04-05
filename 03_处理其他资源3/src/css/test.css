@@ -1,0 +1,14 @@
+/*
+如果你需要在各种浏览器中使用的话  是需要加浏览器前缀的
+处理完成之后  这些是需要在加上浏览器前缀的
+**/
+.content{
+    color: #12345678;
+}
+:fullscreen{ 
+
+}
+.content{
+    user-select: none;
+    transition: all 2s ease;
+}

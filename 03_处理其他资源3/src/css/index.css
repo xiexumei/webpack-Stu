@@ -1,0 +1,9 @@
+@import './test.css';
+@import '../font/iconfont.css';
+
+.content{
+    color: red;
+}
+.bg-image{
+    background-image: url(../img/zznh.png)
+}
