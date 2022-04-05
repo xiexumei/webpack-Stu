@@ -1,0 +1,3448 @@
+{
+    "hash": "5f745582be1e83bfb709",
+    "version": "5.71.0",
+    "time": 2792,
+    "builtAt": 1649139106094,
+    "publicPath": "",
+    "outputPath": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\build",
+    "assetsByChunkName": {
+        "main": [
+            "css/main.5f745582.css",
+            "js/main.bundle.js"
+        ],
+        "whymain": [
+            "js/whymain.bundle.js"
+        ]
+    },
+    "assets": [
+        {
+            "type": "asset",
+            "name": "js/whymain.bundle.js",
+            "size": 5034,
+            "emitted": false,
+            "comparedForEmit": true,
+            "cached": false,
+            "info": {
+                "javascriptModule": false,
+                "size": 5034
+            },
+            "chunkNames": [
+                "whymain"
+            ],
+            "chunkIdHints": [],
+            "auxiliaryChunkNames": [],
+            "auxiliaryChunkIdHints": [],
+            "related": {},
+            "chunks": [
+                926
+            ],
+            "auxiliaryChunks": [],
+            "isOverSizeLimit": false
+        },
+        {
+            "type": "asset",
+            "name": "js/main.bundle.js",
+            "size": 1025,
+            "emitted": false,
+            "comparedForEmit": true,
+            "cached": false,
+            "info": {
+                "javascriptModule": false,
+                "size": 1025
+            },
+            "chunkNames": [
+                "main"
+            ],
+            "chunkIdHints": [],
+            "auxiliaryChunkNames": [],
+            "auxiliaryChunkIdHints": [],
+            "related": {},
+            "chunks": [
+                179
+            ],
+            "auxiliaryChunks": [],
+            "isOverSizeLimit": false
+        },
+        {
+            "type": "asset",
+            "name": "index.html",
+            "size": 334,
+            "emitted": false,
+            "comparedForEmit": true,
+            "cached": false,
+            "info": {
+                "size": 334
+            },
+            "chunkNames": [],
+            "chunkIdHints": [],
+            "auxiliaryChunkNames": [],
+            "auxiliaryChunkIdHints": [],
+            "related": {},
+            "chunks": [],
+            "auxiliaryChunks": [],
+            "isOverSizeLimit": false
+        },
+        {
+            "type": "asset",
+            "name": "css/main.5f745582.css",
+            "size": 69,
+            "emitted": false,
+            "comparedForEmit": false,
+            "cached": true,
+            "info": {
+                "immutable": true,
+                "fullhash": "5f745582",
+                "size": 69
+            },
+            "chunkNames": [
+                "main"
+            ],
+            "chunkIdHints": [],
+            "auxiliaryChunkNames": [],
+            "auxiliaryChunkIdHints": [],
+            "related": {},
+            "chunks": [
+                179
+            ],
+            "auxiliaryChunks": [],
+            "isOverSizeLimit": false
+        }
+    ],
+    "chunks": [
+        {
+            "rendered": true,
+            "initial": true,
+            "entry": false,
+            "recorded": false,
+            "size": 689,
+            "sizes": {
+                "javascript": 621,
+                "css/mini-extract": 68
+            },
+            "names": [
+                "main"
+            ],
+            "idHints": [],
+            "runtime": [
+                "whymain"
+            ],
+            "files": [
+                "css/main.5f745582.css",
+                "js/main.bundle.js"
+            ],
+            "auxiliaryFiles": [],
+            "hash": "f3d51c3321e5a4fbb5ff",
+            "childrenByOrder": {},
+            "id": 179,
+            "siblings": [
+                926
+            ],
+            "parents": [],
+            "children": [],
+            "modules": [
+                {
+                    "type": "module",
+                    "moduleType": "javascript/esm",
+                    "layer": null,
+                    "size": 621,
+                    "sizes": {
+                        "javascript": 621
+                    },
+                    "built": true,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js|8b132446d160db3016f0e24ef00d1abb",
+                    "name": "./src/main.js + 3 modules",
+                    "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "index": 0,
+                    "preOrderIndex": 0,
+                    "index2": 4,
+                    "postOrderIndex": 4,
+                    "cacheable": true,
+                    "optional": false,
+                    "orphan": false,
+                    "dependent": false,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "id": 646,
+                    "chunks": [
+                        179
+                    ],
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleIdentifier": null,
+                            "module": null,
+                            "moduleName": null,
+                            "resolvedModuleIdentifier": null,
+                            "resolvedModule": null,
+                            "type": "entry",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": "./src/main.js",
+                            "loc": "main",
+                            "moduleId": null,
+                            "resolvedModuleId": null
+                        }
+                    ],
+                    "usedExports": [],
+                    "providedExports": [],
+                    "optimizationBailout": [],
+                    "depth": 0,
+                    "modules": [
+                        {
+                            "type": "module",
+                            "moduleType": "javascript/auto",
+                            "layer": null,
+                            "size": 290,
+                            "sizes": {
+                                "javascript": 290
+                            },
+                            "built": true,
+                            "codeGenerated": false,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "name": "./src/main.js",
+                            "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "index": 0,
+                            "preOrderIndex": 0,
+                            "index2": 4,
+                            "postOrderIndex": 4,
+                            "cacheable": true,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": true,
+                            "issuer": null,
+                            "issuerName": null,
+                            "issuerPath": null,
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "profile": {
+                                "total": 1718,
+                                "resolving": 261,
+                                "restoring": 0,
+                                "building": 1457,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 261,
+                                "dependencies": 0
+                            },
+                            "id": null,
+                            "issuerId": null,
+                            "chunks": [],
+                            "assets": [],
+                            "reasons": [],
+                            "usedExports": [],
+                            "providedExports": [],
+                            "optimizationBailout": [
+                                "Statement (ExpressionStatement) with side effects in source code at 6:0-25"
+                            ],
+                            "depth": 0
+                        },
+                        {
+                            "type": "module",
+                            "moduleType": "javascript/auto",
+                            "layer": null,
+                            "size": 166,
+                            "sizes": {
+                                "javascript": 166
+                            },
+                            "built": true,
+                            "codeGenerated": false,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\format.js",
+                            "name": "./src/format.js",
+                            "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\format.js",
+                            "index": 1,
+                            "preOrderIndex": 1,
+                            "index2": 0,
+                            "postOrderIndex": 0,
+                            "cacheable": true,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": true,
+                            "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "issuerName": "./src/main.js",
+                            "issuerPath": [
+                                {
+                                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                                    "name": "./src/main.js",
+                                    "profile": {
+                                        "total": 1718,
+                                        "resolving": 261,
+                                        "restoring": 0,
+                                        "building": 1457,
+                                        "integration": 0,
+                                        "storing": 0,
+                                        "additionalResolving": 0,
+                                        "additionalIntegration": 0,
+                                        "factory": 261,
+                                        "dependencies": 0
+                                    },
+                                    "id": null
+                                }
+                            ],
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "profile": {
+                                "total": 52,
+                                "resolving": 10,
+                                "restoring": 0,
+                                "building": 42,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 10,
+                                "dependencies": 0
+                            },
+                            "id": null,
+                            "issuerId": null,
+                            "chunks": [],
+                            "assets": [],
+                            "reasons": [
+                                {
+                                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                                    "module": "./src/main.js",
+                                    "moduleName": "./src/main.js",
+                                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                                    "resolvedModule": "./src/main.js",
+                                    "type": "harmony side effect evaluation",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": "./format",
+                                    "loc": "2:0-18",
+                                    "moduleId": null,
+                                    "resolvedModuleId": null
+                                },
+                                {
+                                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                                    "module": "./src/main.js",
+                                    "moduleName": "./src/main.js",
+                                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                                    "resolvedModule": "./src/main.js",
+                                    "type": "harmony side effect evaluation",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": "./format",
+                                    "loc": "3:0-18",
+                                    "moduleId": null,
+                                    "resolvedModuleId": null
+                                }
+                            ],
+                            "usedExports": [],
+                            "providedExports": [
+                                "dataFormat",
+                                "priceFormat"
+                            ],
+                            "optimizationBailout": [
+                                "Statement (ExpressionStatement) with side effects in source code at 7:0-19"
+                            ],
+                            "depth": 1
+                        },
+                        {
+                            "type": "module",
+                            "moduleType": "javascript/auto",
+                            "layer": null,
+                            "size": 50,
+                            "sizes": {
+                                "javascript": 50
+                            },
+                            "built": true,
+                            "codeGenerated": false,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "name": "./src/style.css",
+                            "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "index": 2,
+                            "preOrderIndex": 2,
+                            "index2": 2,
+                            "postOrderIndex": 2,
+                            "cacheable": true,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": true,
+                            "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "issuerName": "./src/main.js",
+                            "issuerPath": [
+                                {
+                                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                                    "name": "./src/main.js",
+                                    "profile": {
+                                        "total": 1718,
+                                        "resolving": 261,
+                                        "restoring": 0,
+                                        "building": 1457,
+                                        "integration": 0,
+                                        "storing": 0,
+                                        "additionalResolving": 0,
+                                        "additionalIntegration": 0,
+                                        "factory": 261,
+                                        "dependencies": 0
+                                    },
+                                    "id": null
+                                }
+                            ],
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "profile": {
+                                "total": 505,
+                                "resolving": 53,
+                                "restoring": 0,
+                                "building": 452,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 53,
+                                "dependencies": 0
+                            },
+                            "id": null,
+                            "issuerId": null,
+                            "chunks": [],
+                            "assets": [],
+                            "reasons": [
+                                {
+                                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                                    "module": "./src/main.js",
+                                    "moduleName": "./src/main.js",
+                                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                                    "resolvedModule": "./src/main.js",
+                                    "type": "harmony side effect evaluation",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": "./style.css",
+                                    "loc": "5:0-21",
+                                    "moduleId": null,
+                                    "resolvedModuleId": null
+                                }
+                            ],
+                            "usedExports": [],
+                            "providedExports": [],
+                            "optimizationBailout": [],
+                            "depth": 1
+                        },
+                        {
+                            "type": "module",
+                            "moduleType": "javascript/auto",
+                            "layer": null,
+                            "size": 115,
+                            "sizes": {
+                                "javascript": 115
+                            },
+                            "built": true,
+                            "codeGenerated": false,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\math.js",
+                            "name": "./src/math.js",
+                            "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\math.js",
+                            "index": 4,
+                            "preOrderIndex": 4,
+                            "index2": 3,
+                            "postOrderIndex": 3,
+                            "cacheable": true,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": true,
+                            "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "issuerName": "./src/main.js",
+                            "issuerPath": [
+                                {
+                                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                                    "name": "./src/main.js",
+                                    "profile": {
+                                        "total": 1718,
+                                        "resolving": 261,
+                                        "restoring": 0,
+                                        "building": 1457,
+                                        "integration": 0,
+                                        "storing": 0,
+                                        "additionalResolving": 0,
+                                        "additionalIntegration": 0,
+                                        "factory": 261,
+                                        "dependencies": 0
+                                    },
+                                    "id": null
+                                }
+                            ],
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "profile": {
+                                "total": 51,
+                                "resolving": 8,
+                                "restoring": 0,
+                                "building": 43,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 8,
+                                "dependencies": 0
+                            },
+                            "id": null,
+                            "issuerId": null,
+                            "chunks": [],
+                            "assets": [],
+                            "reasons": [
+                                {
+                                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                                    "module": "./src/main.js",
+                                    "moduleName": "./src/main.js",
+                                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                                    "resolvedModule": "./src/main.js",
+                                    "type": "harmony side effect evaluation",
+                                    "active": false,
+                                    "explanation": "",
+                                    "userRequest": "./math",
+                                    "loc": "1:0-29",
+                                    "moduleId": null,
+                                    "resolvedModuleId": null
+                                },
+                                {
+                                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                                    "module": "./src/main.js",
+                                    "moduleName": "./src/main.js",
+                                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                                    "resolvedModule": "./src/main.js",
+                                    "type": "harmony import specifier",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": "./math",
+                                    "loc": "6:12-15",
+                                    "moduleId": null,
+                                    "resolvedModuleId": null
+                                }
+                            ],
+                            "usedExports": [
+                                "sum"
+                            ],
+                            "providedExports": [
+                                "mul",
+                                "sum"
+                            ],
+                            "optimizationBailout": [],
+                            "depth": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "module",
+                    "moduleType": "css/mini-extract",
+                    "layer": null,
+                    "size": 68,
+                    "sizes": {
+                        "css/mini-extract": 68
+                    },
+                    "built": false,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "css|D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css|0",
+                    "name": "css ./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                    "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                    "index": 3,
+                    "preOrderIndex": 3,
+                    "index2": 1,
+                    "postOrderIndex": 1,
+                    "optional": false,
+                    "orphan": false,
+                    "dependent": true,
+                    "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                    "issuerName": "./src/style.css",
+                    "issuerPath": [
+                        {
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "name": "./src/main.js",
+                            "profile": {
+                                "total": 1718,
+                                "resolving": 261,
+                                "restoring": 0,
+                                "building": 1457,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 261,
+                                "dependencies": 0
+                            },
+                            "id": null
+                        },
+                        {
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "name": "./src/style.css",
+                            "profile": {
+                                "total": 505,
+                                "resolving": 53,
+                                "restoring": 0,
+                                "building": 452,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 53,
+                                "dependencies": 0
+                            },
+                            "id": null
+                        }
+                    ],
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "profile": {
+                        "total": 1,
+                        "resolving": 1,
+                        "restoring": 0,
+                        "building": 0,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 1,
+                        "dependencies": 0
+                    },
+                    "id": null,
+                    "issuerId": null,
+                    "chunks": [
+                        179
+                    ],
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js|8b132446d160db3016f0e24ef00d1abb",
+                            "module": "./src/main.js + 3 modules",
+                            "moduleName": "./src/main.js + 3 modules",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "resolvedModule": "./src/style.css",
+                            "type": "unknown",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": null,
+                            "moduleId": 646,
+                            "resolvedModuleId": null
+                        },
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "module": "./src/style.css",
+                            "moduleName": "./src/style.css",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "resolvedModule": "./src/style.css",
+                            "type": "unknown",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": null,
+                            "moduleId": null,
+                            "resolvedModuleId": null
+                        }
+                    ],
+                    "usedExports": null,
+                    "providedExports": null,
+                    "optimizationBailout": [
+                        "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+                    ],
+                    "depth": 2
+                }
+            ],
+            "origins": [
+                {
+                    "module": "",
+                    "moduleIdentifier": "",
+                    "moduleName": "",
+                    "loc": "main",
+                    "request": "./src/main.js"
+                }
+            ]
+        },
+        {
+            "rendered": true,
+            "initial": true,
+            "entry": true,
+            "recorded": false,
+            "size": 2518,
+            "sizes": {
+                "runtime": 2518
+            },
+            "names": [
+                "whymain"
+            ],
+            "idHints": [],
+            "runtime": [
+                "whymain"
+            ],
+            "files": [
+                "js/whymain.bundle.js"
+            ],
+            "auxiliaryFiles": [],
+            "hash": "73f4315d30c6b8893ded",
+            "childrenByOrder": {},
+            "id": 926,
+            "siblings": [
+                179
+            ],
+            "parents": [],
+            "children": [],
+            "modules": [
+                {
+                    "type": "module",
+                    "moduleType": "runtime",
+                    "layer": null,
+                    "size": 886,
+                    "sizes": {
+                        "runtime": 886
+                    },
+                    "built": false,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "webpack/runtime/chunk loaded",
+                    "name": "webpack/runtime/chunk loaded",
+                    "nameForCondition": null,
+                    "index": null,
+                    "preOrderIndex": null,
+                    "index2": null,
+                    "postOrderIndex": null,
+                    "optional": false,
+                    "orphan": false,
+                    "dependent": false,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "id": "",
+                    "chunks": [
+                        926
+                    ],
+                    "assets": [],
+                    "reasons": [],
+                    "usedExports": null,
+                    "providedExports": [],
+                    "optimizationBailout": [],
+                    "depth": null
+                },
+                {
+                    "type": "module",
+                    "moduleType": "runtime",
+                    "layer": null,
+                    "size": 88,
+                    "sizes": {
+                        "runtime": 88
+                    },
+                    "built": false,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "webpack/runtime/hasOwnProperty shorthand",
+                    "name": "webpack/runtime/hasOwnProperty shorthand",
+                    "nameForCondition": null,
+                    "index": null,
+                    "preOrderIndex": null,
+                    "index2": null,
+                    "postOrderIndex": null,
+                    "optional": false,
+                    "orphan": false,
+                    "dependent": false,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "id": "",
+                    "chunks": [
+                        926
+                    ],
+                    "assets": [],
+                    "reasons": [],
+                    "usedExports": null,
+                    "providedExports": [],
+                    "optimizationBailout": [],
+                    "depth": null
+                },
+                {
+                    "type": "module",
+                    "moduleType": "runtime",
+                    "layer": null,
+                    "size": 1544,
+                    "sizes": {
+                        "runtime": 1544
+                    },
+                    "built": false,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "webpack/runtime/jsonp chunk loading",
+                    "name": "webpack/runtime/jsonp chunk loading",
+                    "nameForCondition": null,
+                    "index": null,
+                    "preOrderIndex": null,
+                    "index2": null,
+                    "postOrderIndex": null,
+                    "optional": false,
+                    "orphan": false,
+                    "dependent": false,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "id": "",
+                    "chunks": [
+                        926
+                    ],
+                    "assets": [],
+                    "reasons": [],
+                    "usedExports": null,
+                    "providedExports": [],
+                    "optimizationBailout": [],
+                    "depth": null
+                }
+            ],
+            "origins": [
+                {
+                    "module": "",
+                    "moduleIdentifier": "",
+                    "moduleName": "",
+                    "loc": "main",
+                    "request": "./src/main.js"
+                }
+            ]
+        }
+    ],
+    "modules": [
+        {
+            "type": "module",
+            "moduleType": "javascript/esm",
+            "layer": null,
+            "size": 621,
+            "sizes": {
+                "javascript": 621
+            },
+            "built": true,
+            "codeGenerated": true,
+            "buildTimeExecuted": false,
+            "cached": false,
+            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js|8b132446d160db3016f0e24ef00d1abb",
+            "name": "./src/main.js + 3 modules",
+            "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+            "index": 0,
+            "preOrderIndex": 0,
+            "index2": 4,
+            "postOrderIndex": 4,
+            "cacheable": true,
+            "optional": false,
+            "orphan": false,
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "id": 646,
+            "chunks": [
+                179
+            ],
+            "assets": [],
+            "reasons": [
+                {
+                    "moduleIdentifier": null,
+                    "module": null,
+                    "moduleName": null,
+                    "resolvedModuleIdentifier": null,
+                    "resolvedModule": null,
+                    "type": "entry",
+                    "active": true,
+                    "explanation": "",
+                    "userRequest": "./src/main.js",
+                    "loc": "main",
+                    "moduleId": null,
+                    "resolvedModuleId": null
+                }
+            ],
+            "usedExports": [],
+            "providedExports": [],
+            "optimizationBailout": [],
+            "depth": 0,
+            "modules": [
+                {
+                    "type": "module",
+                    "moduleType": "javascript/auto",
+                    "layer": null,
+                    "size": 290,
+                    "sizes": {
+                        "javascript": 290
+                    },
+                    "built": true,
+                    "codeGenerated": false,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "name": "./src/main.js",
+                    "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "index": 0,
+                    "preOrderIndex": 0,
+                    "index2": 4,
+                    "postOrderIndex": 4,
+                    "cacheable": true,
+                    "optional": false,
+                    "orphan": false,
+                    "issuer": null,
+                    "issuerName": null,
+                    "issuerPath": null,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "profile": {
+                        "total": 1718,
+                        "resolving": 261,
+                        "restoring": 0,
+                        "building": 1457,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 261,
+                        "dependencies": 0
+                    },
+                    "id": null,
+                    "issuerId": null,
+                    "chunks": [],
+                    "assets": [],
+                    "reasons": [],
+                    "usedExports": [],
+                    "providedExports": [],
+                    "optimizationBailout": [
+                        "Statement (ExpressionStatement) with side effects in source code at 6:0-25"
+                    ],
+                    "depth": 0
+                },
+                {
+                    "type": "module",
+                    "moduleType": "javascript/auto",
+                    "layer": null,
+                    "size": 166,
+                    "sizes": {
+                        "javascript": 166
+                    },
+                    "built": true,
+                    "codeGenerated": false,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\format.js",
+                    "name": "./src/format.js",
+                    "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\format.js",
+                    "index": 1,
+                    "preOrderIndex": 1,
+                    "index2": 0,
+                    "postOrderIndex": 0,
+                    "cacheable": true,
+                    "optional": false,
+                    "orphan": false,
+                    "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "issuerName": "./src/main.js",
+                    "issuerPath": [
+                        {
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "name": "./src/main.js",
+                            "profile": {
+                                "total": 1718,
+                                "resolving": 261,
+                                "restoring": 0,
+                                "building": 1457,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 261,
+                                "dependencies": 0
+                            },
+                            "id": null
+                        }
+                    ],
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "profile": {
+                        "total": 52,
+                        "resolving": 10,
+                        "restoring": 0,
+                        "building": 42,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 10,
+                        "dependencies": 0
+                    },
+                    "id": null,
+                    "issuerId": null,
+                    "chunks": [],
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "module": "./src/main.js",
+                            "moduleName": "./src/main.js",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "resolvedModule": "./src/main.js",
+                            "type": "harmony side effect evaluation",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": "./format",
+                            "loc": "2:0-18",
+                            "moduleId": null,
+                            "resolvedModuleId": null
+                        },
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "module": "./src/main.js",
+                            "moduleName": "./src/main.js",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "resolvedModule": "./src/main.js",
+                            "type": "harmony side effect evaluation",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": "./format",
+                            "loc": "3:0-18",
+                            "moduleId": null,
+                            "resolvedModuleId": null
+                        }
+                    ],
+                    "usedExports": [],
+                    "providedExports": [
+                        "dataFormat",
+                        "priceFormat"
+                    ],
+                    "optimizationBailout": [
+                        "Statement (ExpressionStatement) with side effects in source code at 7:0-19"
+                    ],
+                    "depth": 1
+                },
+                {
+                    "type": "module",
+                    "moduleType": "javascript/auto",
+                    "layer": null,
+                    "size": 50,
+                    "sizes": {
+                        "javascript": 50
+                    },
+                    "built": true,
+                    "codeGenerated": false,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                    "name": "./src/style.css",
+                    "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                    "index": 2,
+                    "preOrderIndex": 2,
+                    "index2": 2,
+                    "postOrderIndex": 2,
+                    "cacheable": true,
+                    "optional": false,
+                    "orphan": false,
+                    "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "issuerName": "./src/main.js",
+                    "issuerPath": [
+                        {
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "name": "./src/main.js",
+                            "profile": {
+                                "total": 1718,
+                                "resolving": 261,
+                                "restoring": 0,
+                                "building": 1457,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 261,
+                                "dependencies": 0
+                            },
+                            "id": null
+                        }
+                    ],
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "profile": {
+                        "total": 505,
+                        "resolving": 53,
+                        "restoring": 0,
+                        "building": 452,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 53,
+                        "dependencies": 0
+                    },
+                    "id": null,
+                    "issuerId": null,
+                    "chunks": [],
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "module": "./src/main.js",
+                            "moduleName": "./src/main.js",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "resolvedModule": "./src/main.js",
+                            "type": "harmony side effect evaluation",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": "./style.css",
+                            "loc": "5:0-21",
+                            "moduleId": null,
+                            "resolvedModuleId": null
+                        }
+                    ],
+                    "usedExports": [],
+                    "providedExports": [],
+                    "optimizationBailout": [],
+                    "depth": 1
+                },
+                {
+                    "type": "module",
+                    "moduleType": "javascript/auto",
+                    "layer": null,
+                    "size": 115,
+                    "sizes": {
+                        "javascript": 115
+                    },
+                    "built": true,
+                    "codeGenerated": false,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\math.js",
+                    "name": "./src/math.js",
+                    "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\math.js",
+                    "index": 4,
+                    "preOrderIndex": 4,
+                    "index2": 3,
+                    "postOrderIndex": 3,
+                    "cacheable": true,
+                    "optional": false,
+                    "orphan": false,
+                    "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "issuerName": "./src/main.js",
+                    "issuerPath": [
+                        {
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "name": "./src/main.js",
+                            "profile": {
+                                "total": 1718,
+                                "resolving": 261,
+                                "restoring": 0,
+                                "building": 1457,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 261,
+                                "dependencies": 0
+                            },
+                            "id": null
+                        }
+                    ],
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "profile": {
+                        "total": 51,
+                        "resolving": 8,
+                        "restoring": 0,
+                        "building": 43,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 8,
+                        "dependencies": 0
+                    },
+                    "id": null,
+                    "issuerId": null,
+                    "chunks": [],
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "module": "./src/main.js",
+                            "moduleName": "./src/main.js",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "resolvedModule": "./src/main.js",
+                            "type": "harmony side effect evaluation",
+                            "active": false,
+                            "explanation": "",
+                            "userRequest": "./math",
+                            "loc": "1:0-29",
+                            "moduleId": null,
+                            "resolvedModuleId": null
+                        },
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "module": "./src/main.js",
+                            "moduleName": "./src/main.js",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                            "resolvedModule": "./src/main.js",
+                            "type": "harmony import specifier",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": "./math",
+                            "loc": "6:12-15",
+                            "moduleId": null,
+                            "resolvedModuleId": null
+                        }
+                    ],
+                    "usedExports": [
+                        "sum"
+                    ],
+                    "providedExports": [
+                        "mul",
+                        "sum"
+                    ],
+                    "optimizationBailout": [],
+                    "depth": 1
+                }
+            ]
+        },
+        {
+            "type": "module",
+            "moduleType": "javascript/auto",
+            "layer": null,
+            "size": 166,
+            "sizes": {
+                "javascript": 166
+            },
+            "built": true,
+            "codeGenerated": false,
+            "buildTimeExecuted": false,
+            "cached": false,
+            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\format.js",
+            "name": "./src/format.js",
+            "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\format.js",
+            "index": 1,
+            "preOrderIndex": 1,
+            "index2": 0,
+            "postOrderIndex": 0,
+            "cacheable": true,
+            "optional": false,
+            "orphan": true,
+            "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+            "issuerName": "./src/main.js",
+            "issuerPath": [
+                {
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "name": "./src/main.js",
+                    "profile": {
+                        "total": 1718,
+                        "resolving": 261,
+                        "restoring": 0,
+                        "building": 1457,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 261,
+                        "dependencies": 0
+                    },
+                    "id": null
+                }
+            ],
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "profile": {
+                "total": 52,
+                "resolving": 10,
+                "restoring": 0,
+                "building": 42,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 10,
+                "dependencies": 0
+            },
+            "id": null,
+            "issuerId": null,
+            "chunks": [],
+            "assets": [],
+            "reasons": [
+                {
+                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "module": "./src/main.js",
+                    "moduleName": "./src/main.js",
+                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "resolvedModule": "./src/main.js",
+                    "type": "harmony side effect evaluation",
+                    "active": true,
+                    "explanation": "",
+                    "userRequest": "./format",
+                    "loc": "2:0-18",
+                    "moduleId": null,
+                    "resolvedModuleId": null
+                },
+                {
+                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "module": "./src/main.js",
+                    "moduleName": "./src/main.js",
+                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "resolvedModule": "./src/main.js",
+                    "type": "harmony side effect evaluation",
+                    "active": true,
+                    "explanation": "",
+                    "userRequest": "./format",
+                    "loc": "3:0-18",
+                    "moduleId": null,
+                    "resolvedModuleId": null
+                }
+            ],
+            "usedExports": [],
+            "providedExports": [
+                "dataFormat",
+                "priceFormat"
+            ],
+            "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 7:0-19"
+            ],
+            "depth": 1
+        },
+        {
+            "type": "module",
+            "moduleType": "javascript/auto",
+            "layer": null,
+            "size": 50,
+            "sizes": {
+                "javascript": 50
+            },
+            "built": true,
+            "codeGenerated": false,
+            "buildTimeExecuted": false,
+            "cached": false,
+            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+            "name": "./src/style.css",
+            "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+            "index": 2,
+            "preOrderIndex": 2,
+            "index2": 2,
+            "postOrderIndex": 2,
+            "cacheable": true,
+            "optional": false,
+            "orphan": true,
+            "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+            "issuerName": "./src/main.js",
+            "issuerPath": [
+                {
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "name": "./src/main.js",
+                    "profile": {
+                        "total": 1718,
+                        "resolving": 261,
+                        "restoring": 0,
+                        "building": 1457,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 261,
+                        "dependencies": 0
+                    },
+                    "id": null
+                }
+            ],
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "profile": {
+                "total": 505,
+                "resolving": 53,
+                "restoring": 0,
+                "building": 452,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 53,
+                "dependencies": 0
+            },
+            "id": null,
+            "issuerId": null,
+            "chunks": [],
+            "assets": [],
+            "reasons": [
+                {
+                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "module": "./src/main.js",
+                    "moduleName": "./src/main.js",
+                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "resolvedModule": "./src/main.js",
+                    "type": "harmony side effect evaluation",
+                    "active": true,
+                    "explanation": "",
+                    "userRequest": "./style.css",
+                    "loc": "5:0-21",
+                    "moduleId": null,
+                    "resolvedModuleId": null
+                }
+            ],
+            "usedExports": [],
+            "providedExports": [],
+            "optimizationBailout": [],
+            "depth": 1
+        },
+        {
+            "type": "module",
+            "moduleType": "javascript/auto",
+            "layer": null,
+            "size": 115,
+            "sizes": {
+                "javascript": 115
+            },
+            "built": true,
+            "codeGenerated": false,
+            "buildTimeExecuted": false,
+            "cached": false,
+            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\math.js",
+            "name": "./src/math.js",
+            "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\math.js",
+            "index": 4,
+            "preOrderIndex": 4,
+            "index2": 3,
+            "postOrderIndex": 3,
+            "cacheable": true,
+            "optional": false,
+            "orphan": true,
+            "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+            "issuerName": "./src/main.js",
+            "issuerPath": [
+                {
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "name": "./src/main.js",
+                    "profile": {
+                        "total": 1718,
+                        "resolving": 261,
+                        "restoring": 0,
+                        "building": 1457,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 261,
+                        "dependencies": 0
+                    },
+                    "id": null
+                }
+            ],
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "profile": {
+                "total": 51,
+                "resolving": 8,
+                "restoring": 0,
+                "building": 43,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 8,
+                "dependencies": 0
+            },
+            "id": null,
+            "issuerId": null,
+            "chunks": [],
+            "assets": [],
+            "reasons": [
+                {
+                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "module": "./src/main.js",
+                    "moduleName": "./src/main.js",
+                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "resolvedModule": "./src/main.js",
+                    "type": "harmony side effect evaluation",
+                    "active": false,
+                    "explanation": "",
+                    "userRequest": "./math",
+                    "loc": "1:0-29",
+                    "moduleId": null,
+                    "resolvedModuleId": null
+                },
+                {
+                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "module": "./src/main.js",
+                    "moduleName": "./src/main.js",
+                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "resolvedModule": "./src/main.js",
+                    "type": "harmony import specifier",
+                    "active": true,
+                    "explanation": "",
+                    "userRequest": "./math",
+                    "loc": "6:12-15",
+                    "moduleId": null,
+                    "resolvedModuleId": null
+                }
+            ],
+            "usedExports": [
+                "sum"
+            ],
+            "providedExports": [
+                "mul",
+                "sum"
+            ],
+            "optimizationBailout": [],
+            "depth": 1
+        },
+        {
+            "type": "module",
+            "moduleType": "css/mini-extract",
+            "layer": null,
+            "size": 68,
+            "sizes": {
+                "css/mini-extract": 68
+            },
+            "built": false,
+            "codeGenerated": true,
+            "buildTimeExecuted": false,
+            "cached": false,
+            "identifier": "css|D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css|0",
+            "name": "css ./node_modules/css-loader/dist/cjs.js!./src/style.css",
+            "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+            "index": 3,
+            "preOrderIndex": 3,
+            "index2": 1,
+            "postOrderIndex": 1,
+            "optional": false,
+            "orphan": false,
+            "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+            "issuerName": "./src/style.css",
+            "issuerPath": [
+                {
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js",
+                    "name": "./src/main.js",
+                    "profile": {
+                        "total": 1718,
+                        "resolving": 261,
+                        "restoring": 0,
+                        "building": 1457,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 261,
+                        "dependencies": 0
+                    },
+                    "id": null
+                },
+                {
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                    "name": "./src/style.css",
+                    "profile": {
+                        "total": 505,
+                        "resolving": 53,
+                        "restoring": 0,
+                        "building": 452,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 53,
+                        "dependencies": 0
+                    },
+                    "id": null
+                }
+            ],
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "profile": {
+                "total": 1,
+                "resolving": 1,
+                "restoring": 0,
+                "building": 0,
+                "integration": 0,
+                "storing": 0,
+                "additionalResolving": 0,
+                "additionalIntegration": 0,
+                "factory": 1,
+                "dependencies": 0
+            },
+            "id": null,
+            "issuerId": null,
+            "chunks": [
+                179
+            ],
+            "assets": [],
+            "reasons": [
+                {
+                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\main.js|8b132446d160db3016f0e24ef00d1abb",
+                    "module": "./src/main.js + 3 modules",
+                    "moduleName": "./src/main.js + 3 modules",
+                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                    "resolvedModule": "./src/style.css",
+                    "type": "unknown",
+                    "active": true,
+                    "explanation": "",
+                    "userRequest": null,
+                    "moduleId": 646,
+                    "resolvedModuleId": null
+                },
+                {
+                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                    "module": "./src/style.css",
+                    "moduleName": "./src/style.css",
+                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                    "resolvedModule": "./src/style.css",
+                    "type": "unknown",
+                    "active": true,
+                    "explanation": "",
+                    "userRequest": null,
+                    "moduleId": null,
+                    "resolvedModuleId": null
+                }
+            ],
+            "usedExports": null,
+            "providedExports": null,
+            "optimizationBailout": [
+                "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+            ],
+            "depth": 2
+        },
+        {
+            "type": "module",
+            "moduleType": "runtime",
+            "layer": null,
+            "size": 886,
+            "sizes": {
+                "runtime": 886
+            },
+            "built": false,
+            "codeGenerated": true,
+            "buildTimeExecuted": false,
+            "cached": false,
+            "identifier": "webpack/runtime/chunk loaded",
+            "name": "webpack/runtime/chunk loaded",
+            "nameForCondition": null,
+            "index": null,
+            "preOrderIndex": null,
+            "index2": null,
+            "postOrderIndex": null,
+            "optional": false,
+            "orphan": false,
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "id": "",
+            "chunks": [
+                926
+            ],
+            "assets": [],
+            "reasons": [],
+            "usedExports": null,
+            "providedExports": [],
+            "optimizationBailout": [],
+            "depth": null
+        },
+        {
+            "type": "module",
+            "moduleType": "runtime",
+            "layer": null,
+            "size": 88,
+            "sizes": {
+                "runtime": 88
+            },
+            "built": false,
+            "codeGenerated": true,
+            "buildTimeExecuted": false,
+            "cached": false,
+            "identifier": "webpack/runtime/hasOwnProperty shorthand",
+            "name": "webpack/runtime/hasOwnProperty shorthand",
+            "nameForCondition": null,
+            "index": null,
+            "preOrderIndex": null,
+            "index2": null,
+            "postOrderIndex": null,
+            "optional": false,
+            "orphan": false,
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "id": "",
+            "chunks": [
+                926
+            ],
+            "assets": [],
+            "reasons": [],
+            "usedExports": null,
+            "providedExports": [],
+            "optimizationBailout": [],
+            "depth": null
+        },
+        {
+            "type": "module",
+            "moduleType": "runtime",
+            "layer": null,
+            "size": 1544,
+            "sizes": {
+                "runtime": 1544
+            },
+            "built": false,
+            "codeGenerated": true,
+            "buildTimeExecuted": false,
+            "cached": false,
+            "identifier": "webpack/runtime/jsonp chunk loading",
+            "name": "webpack/runtime/jsonp chunk loading",
+            "nameForCondition": null,
+            "index": null,
+            "preOrderIndex": null,
+            "index2": null,
+            "postOrderIndex": null,
+            "optional": false,
+            "orphan": false,
+            "failed": false,
+            "errors": 0,
+            "warnings": 0,
+            "id": "",
+            "chunks": [
+                926
+            ],
+            "assets": [],
+            "reasons": [],
+            "usedExports": null,
+            "providedExports": [],
+            "optimizationBailout": [],
+            "depth": null
+        }
+    ],
+    "entrypoints": {
+        "main": {
+            "name": "main",
+            "chunks": [
+                926,
+                179
+            ],
+            "assets": [
+                {
+                    "name": "js/whymain.bundle.js",
+                    "size": 5034
+                },
+                {
+                    "name": "css/main.5f745582.css",
+                    "size": 69
+                },
+                {
+                    "name": "js/main.bundle.js",
+                    "size": 1025
+                }
+            ],
+            "filteredAssets": 0,
+            "assetsSize": 6128,
+            "auxiliaryAssets": [],
+            "filteredAuxiliaryAssets": 0,
+            "auxiliaryAssetsSize": 0,
+            "children": {},
+            "childAssets": {},
+            "isOverSizeLimit": false
+        }
+    },
+    "namedChunkGroups": {
+        "main": {
+            "name": "main",
+            "chunks": [
+                926,
+                179
+            ],
+            "assets": [
+                {
+                    "name": "js/whymain.bundle.js",
+                    "size": 5034
+                },
+                {
+                    "name": "css/main.5f745582.css",
+                    "size": 69
+                },
+                {
+                    "name": "js/main.bundle.js",
+                    "size": 1025
+                }
+            ],
+            "filteredAssets": 0,
+            "assetsSize": 6128,
+            "auxiliaryAssets": [],
+            "filteredAuxiliaryAssets": 0,
+            "auxiliaryAssetsSize": 0,
+            "children": {},
+            "childAssets": {},
+            "isOverSizeLimit": false
+        }
+    },
+    "errors": [],
+    "errorsCount": 0,
+    "warnings": [],
+    "warningsCount": 0,
+    "children": [
+        {
+            "name": "HtmlWebpackCompiler",
+            "hash": "78ad37b50540bdf3380e",
+            "version": "5.71.0",
+            "time": 246,
+            "builtAt": 1649139103615,
+            "publicPath": "",
+            "outputPath": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\build",
+            "assetsByChunkName": {},
+            "assets": [],
+            "chunks": [
+                {
+                    "rendered": true,
+                    "initial": true,
+                    "entry": true,
+                    "recorded": false,
+                    "size": 995,
+                    "sizes": {
+                        "javascript": 555,
+                        "runtime": 440
+                    },
+                    "names": [
+                        "HtmlWebpackPlugin_0-0"
+                    ],
+                    "idHints": [],
+                    "runtime": [
+                        "HtmlWebpackPlugin_0-0"
+                    ],
+                    "files": [],
+                    "auxiliaryFiles": [],
+                    "hash": "e151d2bf99aab10f3c80",
+                    "childrenByOrder": {},
+                    "id": 563,
+                    "siblings": [],
+                    "parents": [],
+                    "children": [],
+                    "modules": [
+                        {
+                            "type": "module",
+                            "moduleType": "javascript/auto",
+                            "layer": null,
+                            "size": 478,
+                            "sizes": {
+                                "javascript": 478
+                            },
+                            "built": true,
+                            "codeGenerated": true,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                            "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                            "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                            "index": 1,
+                            "preOrderIndex": 1,
+                            "index2": 1,
+                            "postOrderIndex": 1,
+                            "cacheable": true,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": false,
+                            "issuer": null,
+                            "issuerName": null,
+                            "issuerPath": null,
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "profile": {
+                                "total": 0,
+                                "resolving": 0,
+                                "restoring": 0,
+                                "building": 0,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 0,
+                                "dependencies": 0
+                            },
+                            "id": 893,
+                            "issuerId": null,
+                            "chunks": [
+                                563
+                            ],
+                            "assets": [],
+                            "reasons": [
+                                {
+                                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                                    "module": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                                    "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                                    "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                                    "type": "cjs self exports reference",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": null,
+                                    "loc": "1:117-131",
+                                    "moduleId": 893,
+                                    "resolvedModuleId": 893
+                                },
+                                {
+                                    "moduleIdentifier": null,
+                                    "module": null,
+                                    "moduleName": null,
+                                    "resolvedModuleIdentifier": null,
+                                    "resolvedModule": null,
+                                    "type": "entry",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                                    "loc": "HtmlWebpackPlugin_0-0",
+                                    "moduleId": null,
+                                    "resolvedModuleId": null
+                                },
+                                {
+                                    "moduleIdentifier": null,
+                                    "module": null,
+                                    "moduleName": null,
+                                    "resolvedModuleIdentifier": null,
+                                    "resolvedModule": null,
+                                    "type": null,
+                                    "active": true,
+                                    "explanation": "used as library export",
+                                    "userRequest": null,
+                                    "moduleId": null,
+                                    "resolvedModuleId": null
+                                }
+                            ],
+                            "usedExports": null,
+                            "providedExports": null,
+                            "optimizationBailout": [
+                                "CommonJS bailout: module.exports is used directly at 1:117-131",
+                                "Statement (VariableDeclaration) with side effects in source code at 1:0-117",
+                                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+                            ],
+                            "depth": 0
+                        },
+                        {
+                            "type": "module",
+                            "moduleType": "javascript/esm",
+                            "layer": null,
+                            "size": 77,
+                            "sizes": {
+                                "javascript": 77
+                            },
+                            "built": true,
+                            "codeGenerated": true,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                            "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                            "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                            "index": 0,
+                            "preOrderIndex": 0,
+                            "index2": 0,
+                            "postOrderIndex": 0,
+                            "cacheable": true,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": false,
+                            "issuer": null,
+                            "issuerName": null,
+                            "issuerPath": null,
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "profile": {
+                                "total": 38,
+                                "resolving": 17,
+                                "restoring": 0,
+                                "building": 21,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 17,
+                                "dependencies": 0
+                            },
+                            "id": 163,
+                            "issuerId": null,
+                            "chunks": [
+                                563
+                            ],
+                            "assets": [],
+                            "reasons": [
+                                {
+                                    "moduleIdentifier": null,
+                                    "module": null,
+                                    "moduleName": null,
+                                    "resolvedModuleIdentifier": null,
+                                    "resolvedModule": null,
+                                    "type": "entry",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                                    "loc": "HtmlWebpackPlugin_0-0",
+                                    "moduleId": null,
+                                    "resolvedModuleId": null
+                                }
+                            ],
+                            "usedExports": [],
+                            "providedExports": [],
+                            "optimizationBailout": [
+                                "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
+                            ],
+                            "depth": 0
+                        },
+                        {
+                            "type": "module",
+                            "moduleType": "runtime",
+                            "layer": null,
+                            "size": 88,
+                            "sizes": {
+                                "runtime": 88
+                            },
+                            "built": false,
+                            "codeGenerated": true,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "webpack/runtime/hasOwnProperty shorthand",
+                            "name": "webpack/runtime/hasOwnProperty shorthand",
+                            "nameForCondition": null,
+                            "index": null,
+                            "preOrderIndex": null,
+                            "index2": null,
+                            "postOrderIndex": null,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": false,
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "id": "",
+                            "chunks": [
+                                563
+                            ],
+                            "assets": [],
+                            "reasons": [],
+                            "usedExports": null,
+                            "providedExports": [],
+                            "optimizationBailout": [],
+                            "depth": null
+                        },
+                        {
+                            "type": "module",
+                            "moduleType": "runtime",
+                            "layer": null,
+                            "size": 27,
+                            "sizes": {
+                                "runtime": 27
+                            },
+                            "built": false,
+                            "codeGenerated": true,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "webpack/runtime/publicPath",
+                            "name": "webpack/runtime/publicPath",
+                            "nameForCondition": null,
+                            "index": null,
+                            "preOrderIndex": null,
+                            "index2": null,
+                            "postOrderIndex": null,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": false,
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "id": "",
+                            "chunks": [
+                                563
+                            ],
+                            "assets": [],
+                            "reasons": [],
+                            "usedExports": null,
+                            "providedExports": [],
+                            "optimizationBailout": [],
+                            "depth": null
+                        },
+                        {
+                            "type": "module",
+                            "moduleType": "runtime",
+                            "layer": null,
+                            "size": 325,
+                            "sizes": {
+                                "runtime": 325
+                            },
+                            "built": false,
+                            "codeGenerated": true,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "webpack/runtime/require chunk loading",
+                            "name": "webpack/runtime/require chunk loading",
+                            "nameForCondition": null,
+                            "index": null,
+                            "preOrderIndex": null,
+                            "index2": null,
+                            "postOrderIndex": null,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": false,
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "id": "",
+                            "chunks": [
+                                563
+                            ],
+                            "assets": [],
+                            "reasons": [],
+                            "usedExports": null,
+                            "providedExports": [],
+                            "optimizationBailout": [],
+                            "depth": null
+                        }
+                    ],
+                    "origins": [
+                        {
+                            "module": "",
+                            "moduleIdentifier": "",
+                            "moduleName": "",
+                            "loc": "HtmlWebpackPlugin_0-0",
+                            "request": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\default_index.ejs"
+                        },
+                        {
+                            "module": "",
+                            "moduleIdentifier": "",
+                            "moduleName": "",
+                            "loc": "HtmlWebpackPlugin_0-0",
+                            "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
+                        }
+                    ]
+                }
+            ],
+            "modules": [
+                {
+                    "type": "module",
+                    "moduleType": "javascript/esm",
+                    "layer": null,
+                    "size": 77,
+                    "sizes": {
+                        "javascript": 77
+                    },
+                    "built": true,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                    "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                    "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                    "index": 0,
+                    "preOrderIndex": 0,
+                    "index2": 0,
+                    "postOrderIndex": 0,
+                    "cacheable": true,
+                    "optional": false,
+                    "orphan": false,
+                    "issuer": null,
+                    "issuerName": null,
+                    "issuerPath": null,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "profile": {
+                        "total": 38,
+                        "resolving": 17,
+                        "restoring": 0,
+                        "building": 21,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 17,
+                        "dependencies": 0
+                    },
+                    "id": 163,
+                    "issuerId": null,
+                    "chunks": [
+                        563
+                    ],
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleIdentifier": null,
+                            "module": null,
+                            "moduleName": null,
+                            "resolvedModuleIdentifier": null,
+                            "resolvedModule": null,
+                            "type": "entry",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                            "loc": "HtmlWebpackPlugin_0-0",
+                            "moduleId": null,
+                            "resolvedModuleId": null
+                        }
+                    ],
+                    "usedExports": [],
+                    "providedExports": [],
+                    "optimizationBailout": [
+                        "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
+                    ],
+                    "depth": 0
+                },
+                {
+                    "type": "module",
+                    "moduleType": "javascript/auto",
+                    "layer": null,
+                    "size": 478,
+                    "sizes": {
+                        "javascript": 478
+                    },
+                    "built": true,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                    "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                    "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                    "index": 1,
+                    "preOrderIndex": 1,
+                    "index2": 1,
+                    "postOrderIndex": 1,
+                    "cacheable": true,
+                    "optional": false,
+                    "orphan": false,
+                    "issuer": null,
+                    "issuerName": null,
+                    "issuerPath": null,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "profile": {
+                        "total": 0,
+                        "resolving": 0,
+                        "restoring": 0,
+                        "building": 0,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 0,
+                        "dependencies": 0
+                    },
+                    "id": 893,
+                    "issuerId": null,
+                    "chunks": [
+                        563
+                    ],
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                            "module": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                            "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                            "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                            "type": "cjs self exports reference",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": null,
+                            "loc": "1:117-131",
+                            "moduleId": 893,
+                            "resolvedModuleId": 893
+                        },
+                        {
+                            "moduleIdentifier": null,
+                            "module": null,
+                            "moduleName": null,
+                            "resolvedModuleIdentifier": null,
+                            "resolvedModule": null,
+                            "type": "entry",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                            "loc": "HtmlWebpackPlugin_0-0",
+                            "moduleId": null,
+                            "resolvedModuleId": null
+                        },
+                        {
+                            "moduleIdentifier": null,
+                            "module": null,
+                            "moduleName": null,
+                            "resolvedModuleIdentifier": null,
+                            "resolvedModule": null,
+                            "type": null,
+                            "active": true,
+                            "explanation": "used as library export",
+                            "userRequest": null,
+                            "moduleId": null,
+                            "resolvedModuleId": null
+                        }
+                    ],
+                    "usedExports": null,
+                    "providedExports": null,
+                    "optimizationBailout": [
+                        "CommonJS bailout: module.exports is used directly at 1:117-131",
+                        "Statement (VariableDeclaration) with side effects in source code at 1:0-117",
+                        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+                    ],
+                    "depth": 0
+                },
+                {
+                    "type": "module",
+                    "moduleType": "runtime",
+                    "layer": null,
+                    "size": 88,
+                    "sizes": {
+                        "runtime": 88
+                    },
+                    "built": false,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "webpack/runtime/hasOwnProperty shorthand",
+                    "name": "webpack/runtime/hasOwnProperty shorthand",
+                    "nameForCondition": null,
+                    "index": null,
+                    "preOrderIndex": null,
+                    "index2": null,
+                    "postOrderIndex": null,
+                    "optional": false,
+                    "orphan": false,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "id": "",
+                    "chunks": [
+                        563
+                    ],
+                    "assets": [],
+                    "reasons": [],
+                    "usedExports": null,
+                    "providedExports": [],
+                    "optimizationBailout": [],
+                    "depth": null
+                },
+                {
+                    "type": "module",
+                    "moduleType": "runtime",
+                    "layer": null,
+                    "size": 27,
+                    "sizes": {
+                        "runtime": 27
+                    },
+                    "built": false,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "webpack/runtime/publicPath",
+                    "name": "webpack/runtime/publicPath",
+                    "nameForCondition": null,
+                    "index": null,
+                    "preOrderIndex": null,
+                    "index2": null,
+                    "postOrderIndex": null,
+                    "optional": false,
+                    "orphan": false,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "id": "",
+                    "chunks": [
+                        563
+                    ],
+                    "assets": [],
+                    "reasons": [],
+                    "usedExports": null,
+                    "providedExports": [],
+                    "optimizationBailout": [],
+                    "depth": null
+                },
+                {
+                    "type": "module",
+                    "moduleType": "runtime",
+                    "layer": null,
+                    "size": 325,
+                    "sizes": {
+                        "runtime": 325
+                    },
+                    "built": false,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "webpack/runtime/require chunk loading",
+                    "name": "webpack/runtime/require chunk loading",
+                    "nameForCondition": null,
+                    "index": null,
+                    "preOrderIndex": null,
+                    "index2": null,
+                    "postOrderIndex": null,
+                    "optional": false,
+                    "orphan": false,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "id": "",
+                    "chunks": [
+                        563
+                    ],
+                    "assets": [],
+                    "reasons": [],
+                    "usedExports": null,
+                    "providedExports": [],
+                    "optimizationBailout": [],
+                    "depth": null
+                }
+            ],
+            "entrypoints": {
+                "HtmlWebpackPlugin_0-0": {
+                    "name": "HtmlWebpackPlugin_0-0",
+                    "chunks": [
+                        563
+                    ],
+                    "assets": [],
+                    "filteredAssets": 0,
+                    "assetsSize": 0,
+                    "auxiliaryAssets": [],
+                    "filteredAuxiliaryAssets": 0,
+                    "auxiliaryAssetsSize": 0,
+                    "children": {},
+                    "childAssets": {},
+                    "isOverSizeLimit": false
+                }
+            },
+            "namedChunkGroups": {
+                "HtmlWebpackPlugin_0-0": {
+                    "name": "HtmlWebpackPlugin_0-0",
+                    "chunks": [
+                        563
+                    ],
+                    "assets": [],
+                    "filteredAssets": 0,
+                    "assetsSize": 0,
+                    "auxiliaryAssets": [],
+                    "filteredAuxiliaryAssets": 0,
+                    "auxiliaryAssetsSize": 0,
+                    "children": {},
+                    "childAssets": {},
+                    "isOverSizeLimit": false
+                }
+            },
+            "errors": [],
+            "errorsCount": 0,
+            "warnings": [],
+            "warningsCount": 0,
+            "children": []
+        },
+        {
+            "name": "mini-css-extract-plugin D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+            "hash": "5dda7daf974eec7c5242",
+            "version": "5.71.0",
+            "time": 404,
+            "builtAt": 1649139105589,
+            "publicPath": "",
+            "outputPath": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\build",
+            "assetsByChunkName": {},
+            "assets": [],
+            "chunks": [
+                {
+                    "rendered": true,
+                    "initial": true,
+                    "entry": true,
+                    "recorded": false,
+                    "size": 3825,
+                    "sizes": {
+                        "javascript": 2888,
+                        "runtime": 937
+                    },
+                    "names": [
+                        "mini-css-extract-plugin"
+                    ],
+                    "idHints": [],
+                    "runtime": [
+                        "mini-css-extract-plugin"
+                    ],
+                    "files": [],
+                    "auxiliaryFiles": [],
+                    "hash": "929f003c705b69ae8daa",
+                    "childrenByOrder": {},
+                    "id": 323,
+                    "siblings": [],
+                    "parents": [],
+                    "children": [],
+                    "modules": [
+                        {
+                            "type": "module",
+                            "moduleType": "javascript/auto",
+                            "layer": null,
+                            "size": 506,
+                            "sizes": {
+                                "javascript": 506
+                            },
+                            "built": true,
+                            "codeGenerated": true,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "name": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "index": 0,
+                            "preOrderIndex": 0,
+                            "index2": 2,
+                            "postOrderIndex": 2,
+                            "cacheable": true,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": false,
+                            "issuer": null,
+                            "issuerName": null,
+                            "issuerPath": null,
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "profile": {
+                                "total": 158,
+                                "resolving": 6,
+                                "restoring": 0,
+                                "building": 152,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 6,
+                                "dependencies": 0
+                            },
+                            "id": 426,
+                            "issuerId": null,
+                            "chunks": [
+                                323
+                            ],
+                            "assets": [],
+                            "reasons": [
+                                {
+                                    "moduleIdentifier": null,
+                                    "module": null,
+                                    "moduleName": null,
+                                    "resolvedModuleIdentifier": null,
+                                    "resolvedModule": null,
+                                    "type": "entry",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": "!!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                                    "loc": "mini-css-extract-plugin",
+                                    "moduleId": null,
+                                    "resolvedModuleId": null
+                                },
+                                {
+                                    "moduleIdentifier": null,
+                                    "module": null,
+                                    "moduleName": null,
+                                    "resolvedModuleIdentifier": null,
+                                    "resolvedModule": null,
+                                    "type": null,
+                                    "active": true,
+                                    "explanation": "used as library export",
+                                    "userRequest": null,
+                                    "moduleId": null,
+                                    "resolvedModuleId": null
+                                }
+                            ],
+                            "usedExports": true,
+                            "providedExports": [
+                                "default"
+                            ],
+                            "optimizationBailout": [
+                                "Statement (VariableDeclaration) with side effects in source code at 4:0-100",
+                                "ModuleConcatenation bailout: Module uses module.id"
+                            ],
+                            "depth": 0
+                        },
+                        {
+                            "type": "module",
+                            "moduleType": "javascript/auto",
+                            "layer": null,
+                            "size": 2318,
+                            "sizes": {
+                                "javascript": 2318
+                            },
+                            "built": true,
+                            "codeGenerated": true,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                            "name": "./node_modules/css-loader/dist/runtime/api.js",
+                            "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                            "index": 2,
+                            "preOrderIndex": 2,
+                            "index2": 1,
+                            "postOrderIndex": 1,
+                            "cacheable": true,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": true,
+                            "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "issuerPath": [
+                                {
+                                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                                    "name": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "profile": {
+                                        "total": 158,
+                                        "resolving": 6,
+                                        "restoring": 0,
+                                        "building": 152,
+                                        "integration": 0,
+                                        "storing": 0,
+                                        "additionalResolving": 0,
+                                        "additionalIntegration": 0,
+                                        "factory": 6,
+                                        "dependencies": 0
+                                    },
+                                    "id": 426
+                                }
+                            ],
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "profile": {
+                                "total": 0,
+                                "resolving": 0,
+                                "restoring": 0,
+                                "building": 0,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 0,
+                                "dependencies": 0
+                            },
+                            "id": 705,
+                            "issuerId": 426,
+                            "chunks": [
+                                323
+                            ],
+                            "assets": [],
+                            "reasons": [
+                                {
+                                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                                    "module": "./node_modules/css-loader/dist/runtime/api.js",
+                                    "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                                    "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                                    "type": "cjs self exports reference",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": null,
+                                    "loc": "7:0-14",
+                                    "moduleId": 705,
+                                    "resolvedModuleId": 705
+                                },
+                                {
+                                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                                    "module": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                                    "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "type": "harmony side effect evaluation",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                                    "loc": "3:0-89",
+                                    "moduleId": 426,
+                                    "resolvedModuleId": 426
+                                },
+                                {
+                                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                                    "module": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                                    "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "type": "harmony import specifier",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                                    "loc": "4:30-57",
+                                    "moduleId": 426,
+                                    "resolvedModuleId": 426
+                                }
+                            ],
+                            "usedExports": null,
+                            "providedExports": null,
+                            "optimizationBailout": [
+                                "CommonJS bailout: module.exports is used directly at 7:0-14",
+                                "Statement (ExpressionStatement) with side effects in source code at 7:0-102:2",
+                                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+                            ],
+                            "depth": 1
+                        },
+                        {
+                            "type": "module",
+                            "moduleType": "javascript/auto",
+                            "layer": null,
+                            "size": 64,
+                            "sizes": {
+                                "javascript": 64
+                            },
+                            "built": true,
+                            "codeGenerated": true,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\noSourceMaps.js",
+                            "name": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+                            "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\noSourceMaps.js",
+                            "index": 1,
+                            "preOrderIndex": 1,
+                            "index2": 0,
+                            "postOrderIndex": 0,
+                            "cacheable": true,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": true,
+                            "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "issuerPath": [
+                                {
+                                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                                    "name": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "profile": {
+                                        "total": 158,
+                                        "resolving": 6,
+                                        "restoring": 0,
+                                        "building": 152,
+                                        "integration": 0,
+                                        "storing": 0,
+                                        "additionalResolving": 0,
+                                        "additionalIntegration": 0,
+                                        "factory": 6,
+                                        "dependencies": 0
+                                    },
+                                    "id": 426
+                                }
+                            ],
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "profile": {
+                                "total": 0,
+                                "resolving": 0,
+                                "restoring": 0,
+                                "building": 0,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 0,
+                                "dependencies": 0
+                            },
+                            "id": 738,
+                            "issuerId": 426,
+                            "chunks": [
+                                323
+                            ],
+                            "assets": [],
+                            "reasons": [
+                                {
+                                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\noSourceMaps.js",
+                                    "module": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+                                    "moduleName": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+                                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\noSourceMaps.js",
+                                    "resolvedModule": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+                                    "type": "cjs self exports reference",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": null,
+                                    "loc": "3:0-14",
+                                    "moduleId": 738,
+                                    "resolvedModuleId": 738
+                                },
+                                {
+                                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                                    "module": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                                    "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "type": "harmony side effect evaluation",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+                                    "loc": "2:0-111",
+                                    "moduleId": 426,
+                                    "resolvedModuleId": 426
+                                },
+                                {
+                                    "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                                    "module": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                                    "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                                    "type": "harmony import specifier",
+                                    "active": true,
+                                    "explanation": "",
+                                    "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+                                    "loc": "4:58-98",
+                                    "moduleId": 426,
+                                    "resolvedModuleId": 426
+                                }
+                            ],
+                            "usedExports": null,
+                            "providedExports": null,
+                            "optimizationBailout": [
+                                "CommonJS bailout: module.exports is used directly at 3:0-14",
+                                "Statement (ExpressionStatement) with side effects in source code at 3:0-5:2",
+                                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+                            ],
+                            "depth": 1
+                        },
+                        {
+                            "type": "module",
+                            "moduleType": "runtime",
+                            "layer": null,
+                            "size": 267,
+                            "sizes": {
+                                "runtime": 267
+                            },
+                            "built": false,
+                            "codeGenerated": true,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "webpack/runtime/compat get default export",
+                            "name": "webpack/runtime/compat get default export",
+                            "nameForCondition": null,
+                            "index": null,
+                            "preOrderIndex": null,
+                            "index2": null,
+                            "postOrderIndex": null,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": false,
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "id": "",
+                            "chunks": [
+                                323
+                            ],
+                            "assets": [],
+                            "reasons": [],
+                            "usedExports": null,
+                            "providedExports": [],
+                            "optimizationBailout": [],
+                            "depth": null
+                        },
+                        {
+                            "type": "module",
+                            "moduleType": "runtime",
+                            "layer": null,
+                            "size": 308,
+                            "sizes": {
+                                "runtime": 308
+                            },
+                            "built": false,
+                            "codeGenerated": true,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "webpack/runtime/define property getters",
+                            "name": "webpack/runtime/define property getters",
+                            "nameForCondition": null,
+                            "index": null,
+                            "preOrderIndex": null,
+                            "index2": null,
+                            "postOrderIndex": null,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": false,
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "id": "",
+                            "chunks": [
+                                323
+                            ],
+                            "assets": [],
+                            "reasons": [],
+                            "usedExports": null,
+                            "providedExports": [],
+                            "optimizationBailout": [],
+                            "depth": null
+                        },
+                        {
+                            "type": "module",
+                            "moduleType": "runtime",
+                            "layer": null,
+                            "size": 88,
+                            "sizes": {
+                                "runtime": 88
+                            },
+                            "built": false,
+                            "codeGenerated": true,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "webpack/runtime/hasOwnProperty shorthand",
+                            "name": "webpack/runtime/hasOwnProperty shorthand",
+                            "nameForCondition": null,
+                            "index": null,
+                            "preOrderIndex": null,
+                            "index2": null,
+                            "postOrderIndex": null,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": false,
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "id": "",
+                            "chunks": [
+                                323
+                            ],
+                            "assets": [],
+                            "reasons": [],
+                            "usedExports": null,
+                            "providedExports": [],
+                            "optimizationBailout": [],
+                            "depth": null
+                        },
+                        {
+                            "type": "module",
+                            "moduleType": "runtime",
+                            "layer": null,
+                            "size": 274,
+                            "sizes": {
+                                "runtime": 274
+                            },
+                            "built": false,
+                            "codeGenerated": true,
+                            "buildTimeExecuted": false,
+                            "cached": false,
+                            "identifier": "webpack/runtime/make namespace object",
+                            "name": "webpack/runtime/make namespace object",
+                            "nameForCondition": null,
+                            "index": null,
+                            "preOrderIndex": null,
+                            "index2": null,
+                            "postOrderIndex": null,
+                            "optional": false,
+                            "orphan": false,
+                            "dependent": false,
+                            "failed": false,
+                            "errors": 0,
+                            "warnings": 0,
+                            "id": "",
+                            "chunks": [
+                                323
+                            ],
+                            "assets": [],
+                            "reasons": [],
+                            "usedExports": null,
+                            "providedExports": [],
+                            "optimizationBailout": [],
+                            "depth": null
+                        }
+                    ],
+                    "origins": [
+                        {
+                            "module": "",
+                            "moduleIdentifier": "",
+                            "moduleName": "",
+                            "loc": "mini-css-extract-plugin",
+                            "request": "!!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css"
+                        }
+                    ]
+                }
+            ],
+            "modules": [
+                {
+                    "type": "module",
+                    "moduleType": "javascript/auto",
+                    "layer": null,
+                    "size": 506,
+                    "sizes": {
+                        "javascript": 506
+                    },
+                    "built": true,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                    "name": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                    "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                    "index": 0,
+                    "preOrderIndex": 0,
+                    "index2": 2,
+                    "postOrderIndex": 2,
+                    "cacheable": true,
+                    "optional": false,
+                    "orphan": false,
+                    "issuer": null,
+                    "issuerName": null,
+                    "issuerPath": null,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "profile": {
+                        "total": 158,
+                        "resolving": 6,
+                        "restoring": 0,
+                        "building": 152,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 6,
+                        "dependencies": 0
+                    },
+                    "id": 426,
+                    "issuerId": null,
+                    "chunks": [
+                        323
+                    ],
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleIdentifier": null,
+                            "module": null,
+                            "moduleName": null,
+                            "resolvedModuleIdentifier": null,
+                            "resolvedModule": null,
+                            "type": "entry",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": "!!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "loc": "mini-css-extract-plugin",
+                            "moduleId": null,
+                            "resolvedModuleId": null
+                        },
+                        {
+                            "moduleIdentifier": null,
+                            "module": null,
+                            "moduleName": null,
+                            "resolvedModuleIdentifier": null,
+                            "resolvedModule": null,
+                            "type": null,
+                            "active": true,
+                            "explanation": "used as library export",
+                            "userRequest": null,
+                            "moduleId": null,
+                            "resolvedModuleId": null
+                        }
+                    ],
+                    "usedExports": true,
+                    "providedExports": [
+                        "default"
+                    ],
+                    "optimizationBailout": [
+                        "Statement (VariableDeclaration) with side effects in source code at 4:0-100",
+                        "ModuleConcatenation bailout: Module uses module.id"
+                    ],
+                    "depth": 0
+                },
+                {
+                    "type": "module",
+                    "moduleType": "javascript/auto",
+                    "layer": null,
+                    "size": 64,
+                    "sizes": {
+                        "javascript": 64
+                    },
+                    "built": true,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\noSourceMaps.js",
+                    "name": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+                    "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\noSourceMaps.js",
+                    "index": 1,
+                    "preOrderIndex": 1,
+                    "index2": 0,
+                    "postOrderIndex": 0,
+                    "cacheable": true,
+                    "optional": false,
+                    "orphan": false,
+                    "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                    "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                    "issuerPath": [
+                        {
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "name": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "profile": {
+                                "total": 158,
+                                "resolving": 6,
+                                "restoring": 0,
+                                "building": 152,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 6,
+                                "dependencies": 0
+                            },
+                            "id": 426
+                        }
+                    ],
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "profile": {
+                        "total": 0,
+                        "resolving": 0,
+                        "restoring": 0,
+                        "building": 0,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 0,
+                        "dependencies": 0
+                    },
+                    "id": 738,
+                    "issuerId": 426,
+                    "chunks": [
+                        323
+                    ],
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\noSourceMaps.js",
+                            "module": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+                            "moduleName": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\noSourceMaps.js",
+                            "resolvedModule": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+                            "type": "cjs self exports reference",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": null,
+                            "loc": "3:0-14",
+                            "moduleId": 738,
+                            "resolvedModuleId": 738
+                        },
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "module": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "type": "harmony side effect evaluation",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+                            "loc": "2:0-111",
+                            "moduleId": 426,
+                            "resolvedModuleId": 426
+                        },
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "module": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "type": "harmony import specifier",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": "../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+                            "loc": "4:58-98",
+                            "moduleId": 426,
+                            "resolvedModuleId": 426
+                        }
+                    ],
+                    "usedExports": null,
+                    "providedExports": null,
+                    "optimizationBailout": [
+                        "CommonJS bailout: module.exports is used directly at 3:0-14",
+                        "Statement (ExpressionStatement) with side effects in source code at 3:0-5:2",
+                        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+                    ],
+                    "depth": 1
+                },
+                {
+                    "type": "module",
+                    "moduleType": "javascript/auto",
+                    "layer": null,
+                    "size": 2318,
+                    "sizes": {
+                        "javascript": 2318
+                    },
+                    "built": true,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                    "name": "./node_modules/css-loader/dist/runtime/api.js",
+                    "nameForCondition": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                    "index": 2,
+                    "preOrderIndex": 2,
+                    "index2": 1,
+                    "postOrderIndex": 1,
+                    "cacheable": true,
+                    "optional": false,
+                    "orphan": false,
+                    "issuer": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                    "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                    "issuerPath": [
+                        {
+                            "identifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "name": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "profile": {
+                                "total": 158,
+                                "resolving": 6,
+                                "restoring": 0,
+                                "building": 152,
+                                "integration": 0,
+                                "storing": 0,
+                                "additionalResolving": 0,
+                                "additionalIntegration": 0,
+                                "factory": 6,
+                                "dependencies": 0
+                            },
+                            "id": 426
+                        }
+                    ],
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "profile": {
+                        "total": 0,
+                        "resolving": 0,
+                        "restoring": 0,
+                        "building": 0,
+                        "integration": 0,
+                        "storing": 0,
+                        "additionalResolving": 0,
+                        "additionalIntegration": 0,
+                        "factory": 0,
+                        "dependencies": 0
+                    },
+                    "id": 705,
+                    "issuerId": 426,
+                    "chunks": [
+                        323
+                    ],
+                    "assets": [],
+                    "reasons": [
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                            "module": "./node_modules/css-loader/dist/runtime/api.js",
+                            "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\babel-loader\\lib\\index.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                            "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                            "type": "cjs self exports reference",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": null,
+                            "loc": "7:0-14",
+                            "moduleId": 705,
+                            "resolvedModuleId": 705
+                        },
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "module": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "type": "harmony side effect evaluation",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                            "loc": "3:0-89",
+                            "moduleId": 426,
+                            "resolvedModuleId": 426
+                        },
+                        {
+                            "moduleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "module": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "resolvedModuleIdentifier": "D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\node_modules\\css-loader\\dist\\cjs.js!D:\\鲨鱼哥前端复习资料\\webpack\\code_why\\26_webpack打包分析\\src\\style.css",
+                            "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./src/style.css",
+                            "type": "harmony import specifier",
+                            "active": true,
+                            "explanation": "",
+                            "userRequest": "../node_modules/css-loader/dist/runtime/api.js",
+                            "loc": "4:30-57",
+                            "moduleId": 426,
+                            "resolvedModuleId": 426
+                        }
+                    ],
+                    "usedExports": null,
+                    "providedExports": null,
+                    "optimizationBailout": [
+                        "CommonJS bailout: module.exports is used directly at 7:0-14",
+                        "Statement (ExpressionStatement) with side effects in source code at 7:0-102:2",
+                        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+                    ],
+                    "depth": 1
+                },
+                {
+                    "type": "module",
+                    "moduleType": "runtime",
+                    "layer": null,
+                    "size": 267,
+                    "sizes": {
+                        "runtime": 267
+                    },
+                    "built": false,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "webpack/runtime/compat get default export",
+                    "name": "webpack/runtime/compat get default export",
+                    "nameForCondition": null,
+                    "index": null,
+                    "preOrderIndex": null,
+                    "index2": null,
+                    "postOrderIndex": null,
+                    "optional": false,
+                    "orphan": false,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "id": "",
+                    "chunks": [
+                        323
+                    ],
+                    "assets": [],
+                    "reasons": [],
+                    "usedExports": null,
+                    "providedExports": [],
+                    "optimizationBailout": [],
+                    "depth": null
+                },
+                {
+                    "type": "module",
+                    "moduleType": "runtime",
+                    "layer": null,
+                    "size": 308,
+                    "sizes": {
+                        "runtime": 308
+                    },
+                    "built": false,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "webpack/runtime/define property getters",
+                    "name": "webpack/runtime/define property getters",
+                    "nameForCondition": null,
+                    "index": null,
+                    "preOrderIndex": null,
+                    "index2": null,
+                    "postOrderIndex": null,
+                    "optional": false,
+                    "orphan": false,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "id": "",
+                    "chunks": [
+                        323
+                    ],
+                    "assets": [],
+                    "reasons": [],
+                    "usedExports": null,
+                    "providedExports": [],
+                    "optimizationBailout": [],
+                    "depth": null
+                },
+                {
+                    "type": "module",
+                    "moduleType": "runtime",
+                    "layer": null,
+                    "size": 88,
+                    "sizes": {
+                        "runtime": 88
+                    },
+                    "built": false,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "webpack/runtime/hasOwnProperty shorthand",
+                    "name": "webpack/runtime/hasOwnProperty shorthand",
+                    "nameForCondition": null,
+                    "index": null,
+                    "preOrderIndex": null,
+                    "index2": null,
+                    "postOrderIndex": null,
+                    "optional": false,
+                    "orphan": false,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "id": "",
+                    "chunks": [
+                        323
+                    ],
+                    "assets": [],
+                    "reasons": [],
+                    "usedExports": null,
+                    "providedExports": [],
+                    "optimizationBailout": [],
+                    "depth": null
+                },
+                {
+                    "type": "module",
+                    "moduleType": "runtime",
+                    "layer": null,
+                    "size": 274,
+                    "sizes": {
+                        "runtime": 274
+                    },
+                    "built": false,
+                    "codeGenerated": true,
+                    "buildTimeExecuted": false,
+                    "cached": false,
+                    "identifier": "webpack/runtime/make namespace object",
+                    "name": "webpack/runtime/make namespace object",
+                    "nameForCondition": null,
+                    "index": null,
+                    "preOrderIndex": null,
+                    "index2": null,
+                    "postOrderIndex": null,
+                    "optional": false,
+                    "orphan": false,
+                    "failed": false,
+                    "errors": 0,
+                    "warnings": 0,
+                    "id": "",
+                    "chunks": [
+                        323
+                    ],
+                    "assets": [],
+                    "reasons": [],
+                    "usedExports": null,
+                    "providedExports": [],
+                    "optimizationBailout": [],
+                    "depth": null
+                }
+            ],
+            "entrypoints": {
+                "mini-css-extract-plugin": {
+                    "name": "mini-css-extract-plugin",
+                    "chunks": [
+                        323
+                    ],
+                    "assets": [],
+                    "filteredAssets": 0,
+                    "assetsSize": 0,
+                    "auxiliaryAssets": [],
+                    "filteredAuxiliaryAssets": 0,
+                    "auxiliaryAssetsSize": 0,
+                    "children": {},
+                    "childAssets": {},
+                    "isOverSizeLimit": false
+                }
+            },
+            "namedChunkGroups": {
+                "mini-css-extract-plugin": {
+                    "name": "mini-css-extract-plugin",
+                    "chunks": [
+                        323
+                    ],
+                    "assets": [],
+                    "filteredAssets": 0,
+                    "assetsSize": 0,
+                    "auxiliaryAssets": [],
+                    "filteredAuxiliaryAssets": 0,
+                    "auxiliaryAssetsSize": 0,
+                    "children": {},
+                    "childAssets": {},
+                    "isOverSizeLimit": false
+                }
+            },
+            "errors": [],
+            "errorsCount": 0,
+            "warnings": [],
+            "warningsCount": 0,
+            "children": []
+        }
+    ]
+}
