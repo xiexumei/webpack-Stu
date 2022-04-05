@@ -1,0 +1,21 @@
+/*
+如果你需要在各种浏览器中使用的话  是需要加浏览器前缀的
+处理完成之后  这些是需要在加上浏览器前缀的
+**/
+:-webkit-full-screen{ 
+
+}
+:-ms-fullscreen{ 
+
+}
+:fullscreen{ 
+
+}
+.content{
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    transition: all 2s ease;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9jc3MvdGVzdC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7OztFQUdFO0FBQ0Y7O0FBRUE7QUFGQTs7QUFFQTtBQUZBOztBQUVBO0FBQ0E7SUFDSSx5QkFBaUI7T0FBakIsc0JBQWlCO1FBQWpCLHFCQUFpQjtZQUFqQixpQkFBaUI7SUFDakIsdUJBQXVCO0FBQzNCIiwiZmlsZSI6InJlc3VsdC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxyXG7lpoLmnpzkvaDpnIDopoHlnKjlkITnp43mtY/op4jlmajkuK3kvb/nlKjnmoTor50gIOaYr+mcgOimgeWKoOa1j+iniOWZqOWJjee8gOeahFxyXG7lpITnkIblrozmiJDkuYvlkI4gIOi/meS6m+aYr+mcgOimgeWcqOWKoOS4iua1j+iniOWZqOWJjee8gOeahFxyXG4qKi9cclxuOmZ1bGxzY3JlZW57IFxyXG5cclxufVxyXG4uY29udGVudHtcclxuICAgIHVzZXItc2VsZWN0OiBub25lO1xyXG4gICAgdHJhbnNpdGlvbjogYWxsIDJzIGVhc2U7XHJcbn0iXX0= */

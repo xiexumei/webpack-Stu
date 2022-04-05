@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2809853 */
+  src: url('iconfont.woff2?t=1647165771906') format('woff2'),
+       url('iconfont.woff?t=1647165771906') format('woff'),
+       url('iconfont.ttf?t=1647165771906') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bianji:before {
+  content: "\e602";
+}
+
+.icon-bianji1:before {
+  content: "\e697";
+}
+
