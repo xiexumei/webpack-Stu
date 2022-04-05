@@ -1,0 +1,1 @@
+const {dateFormate,priceFormate} = require('./js/formate');
